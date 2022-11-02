@@ -1,0 +1,156 @@
+blockquote, q {quotes: none;
+}
+blockquote::before, blockquote::after, q::before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html {
+    background-color: #aad4cf;
+}
+body {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #d4e9e7;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+    color: black;
+}
+header {
+    position: relative;
+    float: left;
+    margin-bottom: 10px;
+    text-align: center !important;
+}
+header h1 {
+    color: white;
+    font-size: 58px;
+    height: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 53%;
+    bottom: 47%;
+    width: 100%;
+    z-index: 9;
+}
+article {
+    margin: 10px 10px;
+}
+.small {
+    width: 250px;
+    height: 270px;
+    float: left;
+    margin-right: 10px;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+}
+.vertical {
+    border-left: 30px solid black
+    height: 20px
+}
+.p1 {
+    font-size: larger 16px;
+    line-height: 24px;
+    margin-right: 0.5rem;
+    top: 65px;
+    margin-bottom: 1.5rem;
+}
+navigation {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 1px;
+    top: 10px;
+    height: 40px;
+}
+a:link
+a:valid {
+    color: black;
+}
+h2 {
+    font-size: 34px;
+    margin: 15px auto 10px 15px;
+    margin-top: 15px;
+}
+a {
+    display: inline-block;
+    border-right: 2px solid black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    width: 32%;
+    line-height: 1.5;
+    vertical-align: middle;
+}
+li:last-child {
+    border-right: none !important;
+}
+h3 {
+    font-size: 32px;
+    margin: 15px auto 10px 15px;
+    margin-top: 15px;
+}
+ul {
+    list-style-type: style disc;
+    margin: 0;
+    font-size: 16px;
+    padding-left: 30px;
+}
+nav li{
+    display: inline;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .points {
+    line-height: 1rem;
+  }
+  .contact-form {
+    border: 2px solid black;
+    margin: 15px;
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: large;
+  }
+  .contact-form,
+  .visit_option p {
+    margin-top: 20px;
+  }
+  .title {
+    font-family: Arial;
+  }
+  input[type='text'],
+  select,
+  textarea {
+    width: 100%;
+    border: 1px solid#acc;
+    border-radius: 2px;
+    line-height: 1.5em;
+  }
+  .contact-form label,
+  .contact-form p {
+    margin-bottom: 15px !important;
+  }
+  input,
+  textarea {
+    margin: o.6em 0;
+  }
+  textarea {
+    height: 75px;
+  }
+  input[type='submit']{
+    height: 50px;
+    width: 8%;
+    font-weight: 400;
+    background-color: #d4e9e7;
+  }
+  .p2{
+    font-size: 20px;
+  }
+  footer p{
+    text-align: end;
+    margin-right: 25px;
+    vertical-align: middle;
+  }
