@@ -6,47 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- all icons are here -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Final Progect</title>
+    <title>Final Project</title>
 </head>
 
 <body>
-    <div class="header">
-        <header class="container">
-            <nav>
-                <ul>
-                    <li>
-                        <img src="images/logo.png" alt="Logo">
-                    </li>
-                    <li>Home</li>
+<div class="wrapper">
+    <header>
+        <nav>
+        <div class="logo">
+                    <img src="images/logo.png" alt="Logo">
+                <ul class="nav-list">        
+                    <li class="current"> <a href="#">Home</a>  </li>
                     <li> <a href="#about_us"> About Us </a></li>
                     <li> <a href="#services"> Services </a></li>
                     <li> <a href="#team"> Team </a></li>
                     <li> <a href="#contact"> Contact</a> </li>
-                    <input type="text" placeholder="Search">
-                    <i class="fa fa-search"></i>
-                    <!-- For Search icon -->
                 </ul>
-            </nav>
-        </header>
-        <div class="banner">
-            <div>
+                <form>
+                    <input type="text" placeholder="Search" name="search">
+                    <button><i class="fa fa-search"></i></button><a href="#search"></a>
+                    
+                </form>
+                    <!-- For Search icon -->
+        </div>
+         </nav>
+
+        <div class="wellcome">
+            <div class="banner">
                 <h1>Welcome to Three Star Media</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, quas a. Provident laudantium rem
                     sunt, repudiandae asperiores qui culpa quas labore blanditiis nulla nostrum repellendus fugiat
                     impedit quidem, fugit debitis.</p>
-                <button>Connect with us <i class="fa fa-caret-right"></i></button>
+                <button>Connect with us <i class="fa fa-caret-right"></i></button><a href="connectwithus"></a>
                 <!--  For arrow icon -->
 
             </div>
         </div>
+        </header>
 
-    </div>
     <main>
         <!-- Next Section(About Us) -->
         <!-- Add id to jump to the ( About us )section -->
-        <div id="about_us">
-            <div>
+        <section class="about-us">
+            <div class="container">
                 <!-- First Div -Add image -->
                 <img src="images/about-us.jpg" alt="About Us">
             </div>
@@ -57,37 +62,37 @@
                     porro deserunt aspernatur aliquam voluptates maxime non pariatur magni reiciendis reprehenderit,
                     illo illum perferendis! Ipsum, laborum fugit?</p>
             </div>
-        </div>
+            </section>
         <!-- Added Next part(Our Services) in dividual Divs and classes-->
         <div id="services">
-        <div class="our services">
+        <div class="container">
             <h2>Our Services</h2>
         </div>
-        <div class="1">  
+        <div class="digital">  
             <img src="images/digital.jpg" alt="Digital">
             <h3>Digital Transformation</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sint est ipsam ipsum, tempora magnam totam maiores a suscipit esse consectetur hic voluptas facere, cupiditate voluptate numquam impedit, harum recusandae.</p>
             <button>Digital Plans <i class="fa fa-caret-right"></i></button>
         </div>
-        <div class="2">
+        <div class="marketing">
             <img src="images/marketing.jpg" alt="marketing">
             <h3>Marketing</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus nam sit, est necessitatibus delectus sunt obcaecati ab eius, ipsam libero tempore aliquid vitae deserunt exercitationem rem optio excepturi placeat.</p>
             <button>Marketing Plans <i class="fa fa-caret-right"></i></button>
         </div>
-            <div class="3">
+            <div class="video">
             <img src="images/video.jpg" alt="Video">
                 <h3>Video Production</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam et nisi corrupti earum a esse quos id deleniti aliquam? Quisquam inventore adipisci quae molestias quo velit distinctio eius reprehenderit quia.</p>
                 <button>Video Plans <i class="fa fa-caret-right"></i></button>
-            </div>
-            <div class="4">
+
+            <div class="web">
                 <img src="images/web.jpg" alt="Web">
                 <h3>Web Development</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, sunt. Quod provident quo sunt. Atque officia inventore, enim rem iure aliquam, tenetur aliquid rerum tempore ducimus deleniti ea vitae placeat?</p>
                 <button>Web Plans <i class="fa fa-caret-right"></i></button>
             </div>
-               <div class="5">
+               <div class="print">
                 <img src="images/print.jpg" alt="Print">
                 <h3>Print</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, sunt. Quod provident quo sunt. Atque officia inventore, enim rem iure aliquam, tenetur aliquid rerum tempore ducimus deleniti ea vitae placeat?</p>
@@ -103,10 +108,10 @@
             <button>Learn More <i class="fa fa-caret-right"></i></button>
         </div>
         <div id="team">
-        <div class="Our Team">
+        <div class="Our-team">
             <h2>Our Team</h2>
         
-        <div class="a">
+        <div class="bob">
             <img src="images/bob.jpg" alt="Bob">
          </div>
         <div class="b">
@@ -115,7 +120,7 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quo voluptatibus illum consequatur aperiam veniam rerum, accusamus eligendi quas ullam optio eum vel aliquid voluptate et blanditiis eveniet perferendis ratione!</p>
             <!-- we will add line under the H4 in the css -->
         </div>
-          <div class="c">
+          <div class="john">
             <h3>John Doe</h3>
             <h4>Ceo and co-owner</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus repudiandae assumenda accusantium delectus nihil laudantium quae doloribus reiciendis aut? Pariatur aperiam harum vel fuga voluptate vero impedit iure vitae repudiandae.</p>
@@ -124,33 +129,30 @@
             <img src="images/john.jpg" alt="John">
           </div>
         </div>
-    </div>
     <div id="contact">
-    <div id="contact"></div>
     <div class="Contact Us">
         <h3>Contact us</h3>
     </div>
-    <div class="aa">
+    <div class="post">
         <h4>Send us a message</h4>
         <form action="Thanks.html" method="post">
          <fieldset>
-         <label for="full name">Name</label><br>
-         <input type="text"><br>
+         <label for="fname">Full Name</label>,<br>
+         <input id="fname"type="text"><br>
          <label for="email">Email</label><br>
-         <input type="text"> <br> 
-         <label for="message">Message</label><br> 
-         <input type="text">
+         <input id="email"type="text"> <br> 
+         <label for="message">Message</label><br>
+         <textarea id="message"></textarea><br>
+         <button type="submit">Send</button><br>
         </fieldset>
         </form>
-        <button>Send</button>
     </div>
-    </div>
-      <div class="bb">
+      <div class="Location">
         <h4>Location</h4>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944738572693!2d-75.75713084833045!3d45.34992777899709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669757018519!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
-    <div class="cc">
+    <div class="operation">
         <h3>Hours of operation</h3>
     </div>
     <!-- Another change will be add with css -->
@@ -162,10 +164,12 @@
     <div class="box six">9 AM-6PM</div>
     <div class="box seven">Closed</div>
     </main>
-    <footer>
-        <p>&COPY;Copyright Three star Media,2020</p>
-        <p>All images are taken from  <a href="https://unsplash.com/"></a> unsplash</p>
+    <footer class="container">
+         <p>&COPY;Copyright Three star Media,2020</p>
+         <p>All images are taken from  <a href="https://unsplash.com/"></a> unsplash</p>
+        </div>
     </footer>
+</div>
 </body>
 
 </html>

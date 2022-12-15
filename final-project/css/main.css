@@ -1,0 +1,242 @@
+/*  */
+
+/* start set mock up for mediaquerie */
+
+body{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    color: black; 
+    font-size: 16px;   
+}
+
+body p{
+	line-height: 1.5;
+    font-size: 14px;
+}
+
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+h1{
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 106px;
+    margin-bottom: 18px;
+}
+h2{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 48px;
+    color: black;
+    margin-bottom: 12px;
+}
+h3{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 106 px;
+    color: black;
+    margin-bottom: 8px;
+}
+h4{
+    font-size: 14px;
+   display: block;
+    font-weight: bold;
+    line-height: 105 px;
+    color: black;
+}
+p {
+    margin-bottom: 1em;
+}
+.logo{
+    background-color: #c78b07;
+    padding-bottom: 20px;
+}
+nav{
+    background-color: #222222;
+    padding-top: 16px;
+}
+
+.nav-list{
+    background-color: #222;
+}
+li {
+    display: block;
+  
+}
+
+.nav-list li a {
+    color: #c78b07; 
+}
+
+.nav-list li a:hover {
+    background-color: #c78b07;
+    display: block;
+    color:#222;
+
+}
+
+nav a:link,
+nav a:visited{
+    font-size: 18px;
+    text-align: center;
+
+    display: block;
+    text-decoration: none;
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
+nav .current a:link,
+nav .current a:visited{
+    color: black;
+    background-color: #c78b07;
+}
+nav .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    height: 30px;
+}
+nav .searchTerm{
+    width: 100%;
+    border-right: noun;
+    padding: 20px;
+    outline: none;
+    font-size: 18px;
+}
+
+.searchButton {
+    border-color: #c78b07;
+    background-color: black;
+    color: #c78b07;
+    width: 100px;
+    outline: black;
+}
+
+/* for font you need to go to google font and add the link  */
+.wrapper {
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+}
+.wellcome .container{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.wellcome button{
+    background-color: #c78b07;
+    width: 256px;
+    height: 96px;
+    font-size: 18px;
+    border: none;
+}
+.section-about-us{
+    background-color: #ffe6ac;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.section-about-us h2 {
+    margin: 0 0 40px 0;
+}
+.section-about-us p {
+    font-size: 24px;
+}
+.banner {
+    width: 100%;
+    background-image: url("../images/main-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0;
+}
+.banner-button {
+    background-color: #c78b07;
+    padding: 2rem;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+/* after set up our default 
+@ media screen and (min-width:760px ) */
+    .heading {
+        grid-area: digital;
+    }
+    .marketing {
+        background-color: #ffe6ac;
+        grid-area: marketing;
+    }
+
+    .video {
+        background-color: #ffe6ac;
+        grid-area: video;
+    }
+    .web {
+        background-color: #ffe6ac;
+        grid-area: web;
+    }
+    
+}
+    .our-team {
+        margin: 20px;
+    }
+    .john {
+        background-color: #ffe6ac;
+        font-size: 24pt;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .john h4 {
+        text-decoration: underline;
+        color: #c78b07;
+        font-size: 16pt;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+    .john p {
+        font-size: 14pt;
+        font-family:'Open Sans', sans-serif;
+    }
+    .bob {
+        background-color: #ffe6ac;
+        font-size: 24pt;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .b {
+        background-color: #ffe6ac;
+        font-size: 16pt;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .b h4 {
+        font-size: 16pt;
+    }
+    .container{
+        background-color: #222222;
+        color: #c78b07;
+        padding: 14px;
+        line-height: 2em;
+    }
+   
+        #footer-link{
+        color: #c78b07;
+    }
+    @media screen and (min-width: 760px) {
+         
